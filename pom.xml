@@ -18,6 +18,11 @@
                     <target>16</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>      
         </plugins>
     </build>
     <parent>
@@ -46,7 +51,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.token>sqa_9eec0abf28efc3f3ea27bef01323132a6574f97d</sonar.token>
+        <sonar.token>sqa_d6df932b51c91be4d41d3dfdf30e3fab6b083242</sonar.token>
     </properties>
     <modules>
         <module>personne-ms</module>
